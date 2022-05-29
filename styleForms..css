@@ -1,0 +1,154 @@
+/* menu */
+#menu-lien4
+{
+    color:#18534F;
+}
+
+#menu-lien2, #menu-lien3, #menu-lien1
+{
+    color: rgba(24, 83, 79, 0.5) ;
+}
+
+/* corps de la page */
+
+.container
+{
+    max-width: 1100px;
+    width: 600px;
+    margin: 0px auto;
+    box-shadow: 5px 5px 5px grey;
+    padding: 0px 10px 10px 10px;
+    background-color: #253336;
+    z-index: 10;
+    
+}
+
+h1
+{
+    font-family: 'advent_prosemibold';
+    font-size: 1em;
+    color: #ECF8F6;
+    padding-top: 10px;
+}
+
+h2
+{
+    font-family: 'advent_probold';
+    font-size: 2em;
+    color: #ECF8F6;
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea, button
+{
+    margin: 10px 10px 10px 10px;
+    font-family: 'advent_prosemibold';
+}
+
+#submit
+{
+    height: 40px;
+    background-color: #D6955B;
+}
+
+#name, #mail, #phone, #subject
+{
+    height: 40px;
+    padding-left: 10px;
+}
+
+#message
+{
+    padding: 10px 10px 10px 10px;
+}
+
+
+/* button */
+
+#submit
+{
+    position: relative;
+    overflow: hidden;
+    background-color: #D6955B;
+    color:#ECF8F6;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+#submit::before /*before permet d'ajouter un élément enfant à button*/
+{
+    --size:0;
+    content:"";
+    position: absolute;
+    left: var(--x);
+    top: var(--y);
+    background: radial-gradient(circle closest-side, rgb(234, 235, 230), transparent);
+    width: var(--size);
+    height: var(--size);
+    transform: translate(-50%,-50%);
+    transition: 0.2s ease;
+}
+
+#submit:hover::before
+{
+    --size:600px;
+}
+
+#reset
+{
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+
+#reset:hover
+{
+    transform: scale(0.99);
+}
+
+#disclaim
+{
+    font-family: 'advent_prolight';
+    color:#ECF8F6;
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+/* responsive */
+@media all and (max-width:1240px)
+{
+  
+
+
+/* corps de la page */
+
+.container
+{
+    max-width: 1100px;
+    width: 80%;
+    margin: 0px auto;
+    box-shadow: 5px 5px 5px grey;
+    padding: 0px 10px 10px 10px;
+    margin-top: 200px;
+    background-color: #253336;
+    z-index: 10;
+
+}
+
+#submit::before /*before permet d'ajouter un élément enfant à button*/
+{
+    display: none;
+}
+
+
+
+
+
+
+}

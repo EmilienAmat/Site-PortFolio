@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="stylePort.css">
+    <link rel="stylesheet" href="styleGeneral.css">
+</head>
+<body>
+    <header>
+        <a href="indexAccueil.html"><img src="img/logoV4.png" alt="mon logo" id="logo"></a>
+        <label for="menuCheckBox" class="menuBurger"> 
+            <div class="hamburger">
+                <p>Menu</p>
+                <div id="burger1"></div>
+                <div id="burger2"></div>
+                <div id="burger3"></div>
+            </div>
+            <svg id="exit" class="exitCross" viewBox="0 0 320 512" fill="#D6955B"><path d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+        </label>
+        <input type="checkbox" id="menuCheckBox" class="menu-cb">
+        <div id="respMenuBg"></div>
+
+    <nav id="menuNav">
+        <ul>
+            <li class="elementMenu">
+                <a href="indexAccueil.html" id="menu-lien1"> <div class="aniMot" >Accueil</div> </a>
+            </li>
+            <li class="elementMenu">
+                <a href="indexAPropos.html" id="menu-lien2"> <div class="aniMot">A propos</div></a>
+            </li>
+            <li class="elementMenu">
+                <a href="indexPort.html" id="menu-lien3"> <div class="aniMot">Portfolio</div></a>
+            </li>
+            <li class="elementMenu">
+                <a href="indexForms.html" id="menu-lien4"> <div class="aniMot">Contact</div></a>
+            </li>
+        </ul>
+    </nav>
+    <div class="responsiveMenu"></div>
+  </header>
+    
+    <h1>Portfolio</h1>
+    <p id="textH1">Voici quelques projets qui m'ont accompagnés dans mon apprentissage</p>
+
+    <div id="portFo">   
+        <div class="allElement" id="element1"></div>
+        <div class="allElement" id="element2"></div>
+        <div class="allElement" id="element3"></div>
+    </div>
+
+    <div id="masque">   
+        <div class="allElement" id="masque1">Site tuto écologique</div>
+        <div class="allElement" id="masque2">Formulaire</div>
+        <div class="allElement" id="masque3">Mode nuit</div>
+    </div>
+
+    <div id="affichagePort">   
+        <a href="#" class="allElement" id="affiche1">Découvrir le projet <svg fill="#ecf6f8"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M438.6 278.6l-160 160C272.4 444.9 264.2 448 256 448s-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L338.8 288H32C14.33 288 .0016 273.7 .0016 256S14.33 224 32 224h306.8l-105.4-105.4c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160C451.1 245.9 451.1 266.1 438.6 278.6z"/></svg></a>
+        <a href="#" class="allElement" id="affiche2">Découvrir le projet <svg fill="#ecf6f8"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M438.6 278.6l-160 160C272.4 444.9 264.2 448 256 448s-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L338.8 288H32C14.33 288 .0016 273.7 .0016 256S14.33 224 32 224h306.8l-105.4-105.4c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160C451.1 245.9 451.1 266.1 438.6 278.6z"/></svg></a>
+        <a href="#" class="allElement" id="affiche3">Découvrir le projet <svg fill="#ecf6f8"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M438.6 278.6l-160 160C272.4 444.9 264.2 448 256 448s-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L338.8 288H32C14.33 288 .0016 273.7 .0016 256S14.33 224 32 224h306.8l-105.4-105.4c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160C451.1 245.9 451.1 266.1 438.6 278.6z"/></svg></a>
+    </div>
+
+    
+    <div class="tutoEcolo">
+        <div id="photoExp"></div>
+        <div id="textExp"></div>
+        <svg id="crossExit" fill="#ffffff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+        <p id="title1">Site internet</p>
+        <p id="title2">Version Responsive</p>
+    </div>
+
+    <div class="forms">
+        <div id="partForms1"></div>
+        <svg id="crossExit2" fill="#ffffff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+        <p id="formTitle1">Formulaire</p>
+    </div>
+
+    <div class="night">
+        <div id="partNight"></div>
+        <svg id="crossExit3" fill="#ffffff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+        <p id="nightTitle1">Mode nuit</p>
+    </div>
+
+    <div id="futurProjet">
+        <H3>Futurs projets :</H3>
+        <p class="textNewPro"> - Site marchand de vêtements ;</p>
+        <p class="textNewPro"> - Site pour une association sportive ;</p>
+        <p class="textNewPro"> - Entrainement avec les tutoriels du site CODROPS.</p>
+    </div>
+
+    <div class="bodyNonHide"></div>    
+    <script src="./scriptPort.js"></script>
+</body>
+
+<footer>
+    <p>Site créé par Emilien AMATJALAL, © 2022</p>
+</footer>
+
+</html>

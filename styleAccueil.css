@@ -1,0 +1,287 @@
+
+/* menu */
+#menu-lien1
+{
+    color:#18534F;
+}
+
+#menu-lien2, #menu-lien3, #menu-lien4
+{
+    color: rgba(24, 83, 79, 0.5) ;
+}
+
+/* corps  */
+
+#logoLink
+{
+    width: 40px;
+    margin-right: 5px;
+}
+
+#logoGit
+{
+    width: 40px;
+    margin-left: 5px;
+}
+
+section
+{
+    display: flex;
+    margin-left: 100px;
+}
+
+article
+{
+    font-family:'advent_prosemibold';
+    margin-left: 100px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#bouttonCV
+{
+    background: #C89D2E;
+    padding: .5rem .5rem;
+    border-radius: 10px;
+    font-family: 'advent_prosemibold',Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    transition: transform 450ms, background-color 300ms 150ms;
+}
+
+h1, h2, h3
+{
+    margin: 0px 0px 20px 0px;
+}
+
+h1
+{
+    color: #C89D2E;
+}
+
+h3
+{
+    color:#253336;
+    font-size: 2em;
+}
+
+h2
+{
+    color: #253336;
+}
+h4
+{
+    margin-top: 20px;
+    color: #4E7453;
+
+}
+
+#bouttonCV:hover
+{
+    transform:scale(1.1);
+    background-color:#ff5343;
+}
+
+/* slider */
+
+#bgAside
+{
+    background: url(./img/backgoundtTrans.png) no-repeat center/100%;
+    width: 700px;
+    height: 600px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.imgSlider
+{
+    position:absolute;
+    right: 100px;
+    bottom:130px;
+    width: 500px;
+}
+
+
+#arrowLeft, #arrowRight
+{
+    width: 30px;
+    cursor: pointer;
+}
+
+#arrowLeft
+{
+    position: fixed;
+    bottom: 300px;
+    right: 640px;
+    z-index: 50;
+    fill: #ECF8F6;
+    transform: scale(1);
+    transition: fill 0.4s ease, tansform 0.5s;
+}
+
+#arrowRight
+{
+    position: fixed;
+    bottom: 300px;
+    right: 50px;
+    z-index: 50;
+    fill: #ECF8F6;
+    transform: scale(1);
+    transition: fill 0.4s ease, tansform 0.5s; 
+}
+
+#arrowLeft:hover, #arrowRight:hover
+{
+    fill: #C89D2E ;
+    transform: scale(1.1);
+}
+
+.imgSlider
+{
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+.slider img.active
+{
+    opacity: 1;
+}
+
+#bgResp
+{
+    display:none;
+}
+
+
+
+/* responsive */
+
+
+@media all and (max-width:1240px)
+{
+
+    /* corps */
+
+        #logoLink
+    {
+        width: 40px;
+        margin-right: 5px;
+    }
+
+    #logoGit
+    {
+        width: 40px;
+        margin-left: 5px;
+    }
+
+    section
+    {
+        display: flex;
+        margin-left: 100px;
+    }
+
+    article
+    {
+        font-family:'advent_prosemibold';
+        margin-left: 1%;
+        margin-top: 0px;
+        top: 350px;
+    }
+
+    #bouttonCV
+    {
+        background: #C89D2E;
+        padding: .5rem .5rem;
+        border-radius: 10px;
+        font-family: 'advent_prosemibold',Arial, Helvetica, sans-serif;
+        color: white;
+        font-weight: bold;
+        transition: transform 450ms, background-color 300ms 150ms;
+    }
+
+    h1, h2, h3
+    {
+        margin: 0px 0px 20px 0px;
+    }
+
+    h1
+    {
+        color: #C89D2E;
+    }
+
+    h3
+    {
+        color:#253336;
+        font-size: 2em;
+    }
+
+    h2
+    {
+        color: #253336;
+    }
+    h4
+    {
+        margin-top: 20px;
+        color: #4E7453;
+
+    }
+
+    #bouttonCV:hover
+    {
+        display: none;
+    }
+
+
+    /* slider */
+
+    #bgAside
+    {
+        background: url(./img/backgoundtTrans.png) no-repeat center/100%;
+        width: 90%;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 700px;
+        display: none;
+    }
+
+    .imgSlider, .slider
+    {
+        display: none;
+    }
+
+    #bgResp
+    {
+        display: block;
+        position: absolute;
+        top: 550px;
+        left: 10%;
+        width: 100%;
+        height: 100%;   
+    }
+
+    #respStud, #respHob, #respSkill, #respExp
+    {
+        width: 400px;
+        position: relative;
+    }
+
+    #arrowLeft, #arrowRight, #arrowLeft:hover, #arrowRight:hover
+    {
+        display: none;
+    }
+
+    .imgSlider
+    {
+        opacity: 1;
+        transition: none;
+    }
+
+    .slider img.active
+    {
+        opacity: 1;
+    }
+
+}

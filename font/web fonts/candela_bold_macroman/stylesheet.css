@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'candelabold';
+    src: url('CandelaBold-webfont.eot');
+    src: url('CandelaBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('CandelaBold-webfont.woff2') format('woff2'),
+         url('CandelaBold-webfont.woff') format('woff'),
+         url('CandelaBold-webfont.ttf') format('truetype'),
+         url('CandelaBold-webfont.svg#candelabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

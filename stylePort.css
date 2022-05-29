@@ -1,0 +1,550 @@
+/* menu */
+#menu-lien3
+{
+    color:#18534F;
+}
+
+#menu-lien2, #menu-lien1, #menu-lien4
+{
+    color: rgba(24, 83, 79, 0.5) ;
+}
+
+
+/* body */
+
+h1
+{
+    font-family: 'advent_probold';
+    color: #18534F;
+    position: fixed;
+    top: 200px;
+    left: 250px;
+}
+
+#textH1
+{
+    font-family: 'advent_prolight';
+    color: black;
+    position: fixed;
+    top: 250px;
+    left: 250px;
+}
+
+.allElement
+{
+    width: 200px;
+    height: 200px;
+    margin: 5px 5px 5px 5px;
+    color: #ffffff;
+    font-family: 'advent_probold';
+    text-align: center;
+    line-height: 200px;
+    font-size: 1.3em;
+    transition: all 0.3s ease;
+}
+
+#element1
+{
+    background: url(./img/dense-forest.jpg) no-repeat center/cover;
+}
+
+#element2
+{
+    background: url(./img/mobile-contact-us-form.jpg) no-repeat center/cover;
+}
+
+#element3
+{
+    background: url(./img/moon-1859616_1920.jpg) no-repeat center/cover;
+}
+
+#element4
+{
+    background-color: gray;
+}
+
+#portFo, #masque, #affichagePort
+{
+    position: fixed;
+    top: 300px;
+    left: 250px;
+    display: flex;
+}
+
+#masque1, #masque2, #masque3, #masque4
+{
+    background-color: rgba(38, 38, 38, 0.5);
+    cursor: pointer;
+}
+
+#affichagePort .allElement
+{
+    opacity: 0;
+}
+
+#affichagePort .allElement:hover
+{
+    opacity: 0.8;
+    z-index: 10;
+    background-color:#18534F;
+    font-family: 'advent_prolight';
+    text-align: center;
+    line-height: 350px;
+}
+
+/* hover  */
+
+#affiche1 svg
+{
+    width: 15px;
+    position: absolute;
+    top: 172px;
+    left: 180px;
+}
+
+#affiche2 svg
+{
+    width: 15px;
+    position: absolute;
+    top: 172px;
+    left: 390px;
+}
+#affiche3 svg
+{
+    width: 15px;
+    position: absolute;
+    top: 172px;
+    left: 600px; 
+}
+
+#affiche4 svg
+{
+    width: 15px;
+    position: absolute;
+    top: 172px;
+    left: 810px; 
+}
+
+
+
+/* Site Tuto Ecolo */
+
+.tutoEcolo
+{
+    width: 900px;
+    height: 500px;
+    z-index: 10;
+    position: absolute;
+    left: 300px;
+    top: 150px;
+    transform: translateY(-150%);
+    transition: transform 1s ease;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    z-index: 21;
+}
+
+.active
+{
+    transform: translateY(0);
+}
+
+
+#photoExp
+{
+    background: url(./img/GIF\ ecolo.gif) no-repeat center/100%;
+    width: 600px;
+    height: 450px;
+}
+#textExp
+{
+    background :url(./img/gif\ Resp.gif) no-repeat center/100%;
+    width: 250px;
+    height: 350px;
+}
+
+
+.tutoEcolo svg
+{
+    width: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#title1
+{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    font-family: 'advent_probold';
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+}
+
+#title2
+{
+    position: absolute;
+    top: 90px;
+    left: 650px;
+    font-family: 'advent_probold';
+    color: white;
+    font-size: 1.5em;
+}
+
+.bodyNonHide
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(33, 33, 33, 0.7);
+    display: none;
+    z-index: 20;
+}
+
+.bodyHide
+{
+    display:block;
+}
+
+/* Exemple forms */
+
+.forms
+{
+    width: 900px;
+    height: 500px;
+    z-index: 10;
+    position: absolute;
+    left: 300px;
+    top: 150px;
+    transform: translateY(-150%);
+    transition: transform 1s ease;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    z-index: 21;
+}
+
+.active
+{
+    transform: translateY(0);
+}
+
+
+#partForms1
+{
+    background: url(./img/video\ Forms\ \(1\).gif) no-repeat center/100%;
+    width: 650px;
+    height: 450px;
+}
+
+
+.forms svg
+{
+    width: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#formTitle1
+{
+    position: absolute;
+    top: 40px;
+    left: 380px;
+    font-family: 'advent_probold';
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+}
+
+#crossExit2
+{
+    position: absolute;
+    left: 80%;
+    top: 0;
+}
+
+
+/* Exemple mode nuit */
+
+.night
+{
+    width: 900px;
+    height: 500px;
+    z-index: 10;
+    position: absolute;
+    left: 300px;
+    top: 150px;
+    transform: translateY(-150%);
+    transition: transform 1s ease;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    z-index: 21;
+}
+
+.active
+{
+    transform: translateY(0);
+}
+
+
+#partNight
+{
+    background: url(./img/video\ mode\ nuit\ \(1\).gif) no-repeat center/100%;
+    width: 650px;
+    height: 450px;
+}
+
+
+.night svg
+{
+    width: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#nightTitle1
+{
+    position: absolute;
+    top: 40px;
+    left: 275px;
+    font-family: 'advent_probold';
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+}
+
+#crossExit3
+{
+    position: absolute;
+    left: 80%;
+    top: 0;
+}
+
+/* text */
+#futurProjet
+{
+    position: absolute;
+    top: 550px;
+    left: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#futurProjet h3
+{
+    font-family: 'advent_prosemibold';
+    color:#18534F;
+}
+
+.textNewPro
+{
+    font-family: 'advent_prolight';
+    color:black;
+    text-align: center;
+}
+
+
+
+/* Responsive */
+
+    @media all and (max-width:1110px)
+    {
+        
+    
+    h1, #textH1
+    {
+        position: absolute;
+        left: 10%;
+    }
+
+    #portFo, #masque, #affichagePort
+    {
+        position: absolute;
+        top: 300px;
+        left: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+
+    }
+
+
+/* hover  */
+
+    #affiche1 svg, #affiche2 svg,  #affiche3 svg, #affiche4 svg
+    {
+        display: none;
+    }
+    
+    #affichagePort .allElement:hover
+    {
+        opacity: 0;
+    }
+
+        
+
+
+/* Site Tuto Ecolo */
+
+    .tutoEcolo
+    {
+        width: 100%;
+        height: 100%;
+        left: auto;
+        top: 20px;
+        transform: translateY(-150%);
+        flex-direction: column;
+    }
+
+    .active
+    {
+        transform: translateY(0);
+    }
+
+
+    #photoExp
+    {
+        width: 90%;
+        margin-top: 10%;
+    }
+    #textExp
+    {
+        width: 250px;
+        height: 350px;
+        margin-top: 3%;
+    }
+
+
+    .tutoEcolo svg
+    {
+        right: 40px;
+    }
+
+    #title1
+    {
+        top: 5%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    #title2
+    {
+        top: 485px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    /* forms */
+    .forms
+    {
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 10%;
+    }
+
+    .active
+    {
+        transform: translateY(0);
+    }
+
+
+    #partForms1
+    {
+        width: 90%;
+        height: 100%;
+    }
+
+    .forms svg
+    {
+        top: 10px;
+        right: 40px;
+    }
+
+    #formTitle1
+    {
+        top: 100px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    #crossExit2
+    {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+
+/* Exemple mode nuit */
+
+    .night
+    {
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 10%;
+    }
+
+    .active
+    {
+        transform: translateY(0);
+    }
+
+
+    #partNight
+    {
+        width: 90%;
+        height: 100%;
+    }
+
+
+    .night svg
+    {
+        top: 10px;
+        right: 40px;
+    }
+
+    #nightTitle1
+    {
+        top: 100px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    #crossExit3
+    {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+/* text */
+#futurProjet
+{
+    display: none;
+}
+#futurProjet h3
+{
+    font-family: 'advent_prosemibold';
+    color:#18534F;
+}
+
+.textNewPro
+{
+    font-family: 'advent_prolight';
+    color:black;
+    text-align: center;
+}
+
+
+}
