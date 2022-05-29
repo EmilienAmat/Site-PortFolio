@@ -250,6 +250,11 @@ footer p
         left: 50%;
         transform: translate(-50%);
         text-align: center;
+        z-index: 0;
+    }
+
+    .menu-cb:checked ~ #menuNav
+    {
         z-index: 100;
     }
 
