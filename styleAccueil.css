@@ -113,7 +113,7 @@ h4
 #arrowLeft
 {
     position: fixed;
-    bottom: 300px;
+    bottom: 400px;
     right: 640px;
     z-index: 50;
     fill: #ECF8F6;
@@ -124,7 +124,7 @@ h4
 #arrowRight
 {
     position: fixed;
-    bottom: 300px;
+    bottom: 400px;
     right: 50px;
     z-index: 50;
     fill: #ECF8F6;
@@ -154,6 +154,12 @@ h4
     display:none;
 }
 
+aside
+{
+    position: fixed;
+    top: 90%;
+    right: 30px;
+}
 
 
 /* responsive */
@@ -236,6 +242,11 @@ h4
 
 
     /* slider */
+
+    aside
+    {
+        position: static;
+    }
 
     #bgAside
     {
